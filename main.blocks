@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Rw?$;$ubi[UG5LhW@:Dg">mySprite</variable><variable type="KIND_SpriteKind" id=",_eqh-f%Gk9r2k5Za8~?">Player</variable><variable type="KIND_SpriteKind" id="$pRSWQd_08E/f3EjGLaN">Projectile</variable><variable type="KIND_SpriteKind" id="%e@LCN=@5~@_`]~:P/Sg">Food</variable><variable type="KIND_SpriteKind" id="%?3_{,6s7Uz!PY]aFi7`">Enemy</variable></variables><block type="pxt-on-start" id="6VzlmCY0*5ax@3wm+p.l" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="^4~wR)OMn?2Y9B%ZFm)n"><field name="VAR" id="Rw?$;$ubi[UG5LhW@:Dg">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="]9A6(l=QcdqtVSl]GJoH"><value name="img"><shadow type="screen_image_picker" id="h,rkTNP_ow5JT{$o7wm@"><field name="img">img`
+. . . . . . . . . . . . . . 
+e e e . . . . e e e . . . . 
+c d d c . . c d d c . . . . 
+c b d d f f d d b c . . . . 
+c 3 b d d b d b 3 c . . . . 
+f b 3 d d d d 3 b f . . . . 
+e d d d d d d d d e . . . . 
+e d f d d d d f d e b f b . 
+f d d f d d f d d f f d f . 
+f b d d b b d d 2 b f d f . 
+. f 2 2 2 2 2 2 d b d b f . 
+. f d d d d d d d f f f . . 
+. f d b d f f f d f . . . . 
+. . f f f f . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"h,rkTNP_ow5JT{$o7wm@"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Op)^%Cxf]@~{:g^y??M,"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="VNa?!YV#-|HM=3|PEt-B"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="this"><block type="variables_get" id="ROzF1Wb1T+R/3s]nNhmn"><field name="VAR" id="Rw?$;$ubi[UG5LhW@:Dg">mySprite</field></block></value><value name="text"><shadow type="text" id="fTMij-OxT.X@g9Qvv%DL"><field name="TEXT">something</field></shadow></value></block></next></block></statement></block></xml>
